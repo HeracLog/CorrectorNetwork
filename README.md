@@ -1,9 +1,12 @@
 # Corrector Network
 ## How it works 
 It uses multi head similarity to predict similarity using different methods, then concats the vectors into a matrix of size NxH <br>
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>M</mi><mo>&#x2022;</mo><mi>U</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>O</mi><mi>u</mi><mi>t</mi><mi>U</mi><mi>X</mi></math><br>
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mi>u</mi><mi>t</mi><mi>U</mi><mi>X</mi><mo>&#x2022;</mo><mi>V</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>O</mi><mi>u</mi><mi>t</mi><mi>U</mi><mi>V</mi></math><br>
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mi>u</mi><mi>t</mi><mi>p</mi><mi>u</mi><mi>t</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>s</mi><mi>o</mi><mi>f</mi><mi>t</mi><mi>m</mi><mi>a</mi><mi>x</mi><mo>(</mo><mi>O</mi><mi>u</mi><mi>t</mi><mi>p</mi><mi>u</mi><mi>t</mi><mi>X</mi><mi>V</mi><mo>)</mo></math><br>
+![image](https://github.com/TortoiseShell04/CorrectorNetwork/assets/118297920/3bfcc090-eb3f-4ae2-988c-61b247f42e7e)
+<br>
+![image](https://github.com/TortoiseShell04/CorrectorNetwork/assets/118297920/660db837-7509-46f2-b547-c23dfab6f710)
+<br>
+![image](https://github.com/TortoiseShell04/CorrectorNetwork/assets/118297920/becfcb8e-c0c8-49f3-9c92-2792f55581e6)
+<br>
 ## Back propagation
 ![image](https://github.com/TortoiseShell04/CorrectorNetwork/assets/118297920/66e08648-587d-419e-bbaf-ee742823beca)<br>
 
